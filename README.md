@@ -9,10 +9,10 @@ RSNP CsutomProfile ApproachingNotificationProfile
 ##プロファイルの説明
 
 AロボットがBロボットに近付いたことをサービスに通知し、(sendApproachingNotification_profile)  
-BロボットにAロボットが近づいたことを通知することができるプロファイル(receiveApproachingNotification)  
+サービスからBロボットにAロボットが近づいたことを通知することができるプロファイル(receiveApproachingNotification)  
 
 AロボットがBロボットに、Cオブジェクトが接近していることをサービスに通知し(sendApproachingNotificationOfObject_profile)  
-Bロボットに、Aロボットから、Cオブジェクトが近づいていることを通知することができるプロファイル(receiveApproachingNotificationOfObject)  
+サービスからBロボットに、Aロボットから、Cオブジェクトが近づいていることを通知することができるプロファイル(receiveApproachingNotificationOfObject)  
 
 
 ##ロボット側Invokerインターフェース
