@@ -6,6 +6,15 @@ RSNP CsutomProfile ApproachingNotificationProfile
 <https://github.com/RobotServicesInitiative/ApproachingNotificationProfile/blob/master/ApproachingNotification_common/CutomProfile_ApproachingNotification_common_201609262218.jar>  
 <https://github.com/RobotServicesInitiative/ApproachingNotificationProfile/blob/master/ApproachingNotification_service/CutomProfile_ApproachingNotification_service_201609262218.jar>  
 
+##プロファイルの説明
+
+AロボットがBロボットに近付いたことをサービスに通知し、(sendApproachingNotification_profile)  
+BロボットにAロボットが近づいたことを通知することができるプロファイル(receiveApproachingNotification)  
+
+AロボットがBロボットに、Cオブジェクトが接近していることをサービスに通知し(sendApproachingNotificationOfObject_profile)  
+Bロボットに、Aロボットから、Cオブジェクトが近づいていることを通知することができるプロファイル(receiveApproachingNotificationOfObject)  
+
+
 ##ロボット側Invokerインターフェース
 *	public RetValue sendApproachingNotification_profile(String to_robot_id, long distance_mm)  
   
