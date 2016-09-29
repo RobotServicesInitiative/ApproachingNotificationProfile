@@ -12,10 +12,10 @@ RSNP CsutomProfile ApproachingNotificationProfile
 to_robot_id not null  
 distance_mm not null  
 
-* public RetValue startProfile()
+* public RetValue startProfile()  
 ApproachingNotification_profileを開始する
 
-* public RetValue endProfile()
+* public RetValue endProfile()  
 ApproachingNotification_profileを終了する
 
 *	public RetValue sendApproachingNotificationOfObject_profile(String notification_destination_robot, String approaching_object_name,long distance_mm)  
