@@ -8,6 +8,7 @@ RSNP CsutomProfile ApproachingNotificationProfile
 
 ##ロボット側Invokerインターフェース
 *	public RetValue sendApproachingNotification_profile(String to_robot_id, long distance_mm)  
+  
 サービスに通知元の自ロボットが、to_robot_idに、distance_mmほど近づいたことを通知する  
 to_robot_id not null  
 distance_mm not null  
