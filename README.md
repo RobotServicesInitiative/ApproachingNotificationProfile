@@ -8,6 +8,9 @@ RSNP CsutomProfile ApproachingNotificationProfile
 
 ##プロファイルの説明
 
+![2016-09-29 19 39 50](https://cloud.githubusercontent.com/assets/22492264/18979847/853657ec-8709-11e6-8db5-27262017bc2f.png)
+
+
 AロボットがBロボットに近付いたことをサービスに通知し、(sendApproachingNotification_profile)  
 サービスからBロボットにAロボットが近づいたことを通知することができるプロファイル(receiveApproachingNotification)  
 
